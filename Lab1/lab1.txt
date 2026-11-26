@@ -1,0 +1,27 @@
+Title: Computer Graphics Lab 1: Introduction to Graphics Programming in C
+
+Introduction:
+This lab shows how to switch a C program into graphics mode with graphics.h and draw
+pixels, lines, shapes and text on the screen.
+ Computer graphics is the creation and display of images using a computer. 
+On a screen the image is made of tiny dots called
+pixels, and the number of pixels across and down is the resolution (for example 640 × 480).
+A normal C program runs in text mode and can only print characters. 
+To draw shapes, the program must switch to graphics mode, where each pixel can be controlled separately.
+The screen coordinate system has its origin (0, 0) at the top-left corner; x increases to
+the right and y increases downward. 
+Every graphics program follows the same basic steps:
+ include graphics.h, start graphics mode with initgraph(), draw with functions
+such as putpixel(), line(), rectangle() and circle(), wait for a key with getch(),
+and close graphics mode with closegraph().
+
+Objectives:
+1. To understand graphics mode and how to start and close it in C.
+2. To learn the screen coordinate system and the basic drawing functions of graphics.h.
+3. To draw pixels, lines, rectangles, circles, ellipses, arcs and text using colours.
+
+Conclusion:
+In this lab we learned how to start and close graphics mode in C and how the screen
+coordinate system works. We used the functions of graphics.h to draw a pixel, line,
+rectangle, circle, ellipse, arc and text, and to set colours and fill a shape. This gives
+us the base for the next labs on line-drawing algorithms such as DDA and Bresenham.
